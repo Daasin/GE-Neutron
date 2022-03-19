@@ -1,6 +1,6 @@
 # GE-NEUTRON
 
-This is Glorious Eggrolls build of WINE based on/forked from the most recent bleeding-edge proton experimental wine repo. This is meant to be used with non-steam games outside of Steam.
+This is Glorious Eggrolls staging of WINE built on/forked from the most recent bleeding-edge proton experimental wine repo. This is meant to be used with non-steam games outside of Steam.
 
 For Steam games, Proton-GE has been provided for usage with Lutris, found here:
 

@@ -1,16 +1,20 @@
-# wine-ge-custom
+# GE-NEUTRON
 
-This is my build of WINE based on/forked from the most recent bleeding-edge proton experimental wine repo. This is meant to be used with non-steam games outside of Steam.
+This is Glorious Eggrolls build of WINE based on/forked from the most recent bleeding-edge proton experimental wine repo. This is meant to be used with non-steam games outside of Steam.
 
-For Steam games, I provide Proton-GE for usage with Lutris, found here:
+For Steam games, Proton-GE has been provided for usage with Lutris, found here:
 
 https://github.com/gloriouseggroll/proton-ge-custom
 
-## Occasionally, I also release League of Legends builds -- These builds will specifically have 'lol' or 'LoL' in the name. Please note these 'LoL' builds are for specific use with League of Legends, and NO other games.
+## Occasionally, GE also releases League of Legends builds -- These builds will specifically have 'lol' or 'LoL' in the name. Please note these 'LoL' builds are for specific use with League of Legends, and NO other games.
 
-## If you have an issue that happens with my Wine-GE or Wine-LoL-GE builds, provided FROM this repository, please contact me on Discord about the issue:
+## If you have an issue that happens with Wine-GE or Wine-LoL-GE builds, provided FROM Glorious Eggrolls repository AND NOT THIS ARCHIVED FORK, please contact GE on Discord about the issue:
 
-https://discord.gg/6y3BdzC
+https://discord.gg/6y3BdzC 
+ 
+---
+ 
+# Preserved Archive: 
 
 ## Table of contents
 

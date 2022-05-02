@@ -155,8 +155,8 @@
     patch -Np1 < ../patches/wine-hotfixes/staging/server-PeekMessage/0001-server-Fix-handling-of-GetMessage-after-previous-Pee.patch
 
     # loader-KeyboardLayouts
-	patch -Np1 < ../wine-staging/patches/loader-KeyboardLayouts/0001-loader-Add-Keyboard-Layouts-registry-enteries.patch
-	patch -Np1 < ../wine-staging/patches/loader-KeyboardLayouts/0002-user32-Improve-GetKeyboardLayoutList.patch
+    patch -Np1 < ../wine-staging/patches/loader-KeyboardLayouts/0001-loader-Add-Keyboard-Layouts-registry-enteries.patch
+    patch -Np1 < ../wine-staging/patches/loader-KeyboardLayouts/0002-user32-Improve-GetKeyboardLayoutList.patch
 
     # ntdll-Exception
     patch -Np1 < ../wine-staging/patches/ntdll-Exception/0002-ntdll-OutputDebugString-should-throw-the-exception-a.patch
@@ -279,6 +279,9 @@
     echo "WINE: -PROTON- fake current res patches"
     patch -Np1 < ../patches/proton/65-proton-fake_current_res_patches.patch
 
+    echo "WINE: -PROTON- add fsync patch to fix Elden Ring crashes"
+    patch -Np1 < ../patches/proton/0001-fsync-Reuse-shared-mem-indices.patch
+
 ### END PROTON PATCH SECTION ###
 
 ### START MFPLAT PATCH SECTION ###
@@ -304,8 +307,9 @@
     echo "WINE: -HOTFIX- 32 bit compilation crashes with newer libldap, upstream patch fixes it"
     patch -Np1 < ../patches/wine-hotfixes/upstream/32-bit-ldap-upstream-fix.patch
 
-    echo "WINE: -HOTFIX- fix mono version"
-    patch -Np1 < ../patches/wine-hotfixes/pending/hotfix-update_mono_version.patch
+#    currently not needed, keep in case proton gets ahead of normal wine and we have to revert again.
+#    echo "WINE: -HOTFIX- fix mono version"
+#    patch -Np1 < ../patches/wine-hotfixes/pending/hotfix-update_mono_version.patch
 
     echo "WINE: -HOTFIX- fix audio regression caused by 0e7fd41"
     patch -Np1 < ../patches/wine-hotfixes/upstream/Fix-regression-introduced-by-0e7fd41.patch
